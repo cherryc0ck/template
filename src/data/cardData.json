@@ -1,0 +1,82 @@
+{
+  "minicard": [
+    {
+      "index": 0,
+      "koreaTitle": "매출",
+      "title": "sales"
+    },
+    {
+      "index": 1,
+      "koreaTitle": "페이지뷰",
+      "title": "view"
+    },
+    {
+      "index": 2,
+      "koreaTitle": "세션",
+      "title": "session"
+    },
+    {
+      "index": 3,
+      "koreaTitle": "주문수",
+      "title": "orderCount"
+    }
+  ],
+
+  "bigCard": [
+    {
+      "index": 0,
+      "title": "sales",
+      "koreaTitle": "매출",
+      "value": "6천"
+    },
+    {
+      "index": 1,
+      "title": "potentialSales",
+      "koreaTitle": "잠재매출",
+      "value": "1천"
+    },
+    {
+      "index": 2,
+      "title": "coupon",
+      "koreaTitle": "쿠폰사용량",
+      "value": "3백"
+    },
+    {
+      "index": 3,
+      "title": "conversion",
+      "koreaTitle": "전환율",
+      "value": "2천"
+    },
+    {
+      "index": 4,
+      "title": "purchaseConversion",
+      "koreaTitle": "구매전환",
+      "value": "2천"
+    },
+    {
+      "index": 5,
+      "title": "connectionChange",
+      "koreaTitle": "접속전환",
+      "value": "2천"
+    },
+    {
+      "index": 6,
+      "title": "uniqueVisitors",
+      "koreaTitle": "순 방문자",
+      "value": "10만"
+    },
+    {
+      "index": 7,
+      "title": "loginAttempt",
+      "koreaTitle": "로그인 시도",
+      "value": "2.4천"
+    },
+    {
+      "index": 8,
+      "title": "funnel",
+      "koreaTitle": "퍼널",
+      "value": "2천"
+    }
+  ]
+
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.cardWrapper {
+  display: flex;
+  gap: 24px;
+  margin-right: 17px;
+  padding-top: 12.5px;
+  padding-bottom: 13.5px;
+}

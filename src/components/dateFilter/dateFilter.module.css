@@ -1,0 +1,53 @@
+button {
+  width: 33.33%;
+  height: 33px;
+  background: 0;
+  border: 0;
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  padding: 16.5px 0;
+}
+
+.monthly {
+  display: flex;
+  width: 242px;
+  height: 33px;
+  border: 1px solid #ffb186;
+  border-radius: 60px;
+}
+
+.event {
+  width: 91px;
+  background: #ff965b;
+  color: #ffffff;
+  border-radius: 60px;
+}
+
+.date {
+  display: flex;
+  width: 242px;
+  height: 33px;
+  border: 1px solid #ffb186;
+  border-radius: 60px;
+}
+
+.calender {
+  width: 13px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.startContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

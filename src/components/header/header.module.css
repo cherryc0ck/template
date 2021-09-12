@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+h1 {
+  width: 167px;
+  height: 28px;
+}
+
+.logo {
+  display: flex;
+  color: #000000;
+  text-decoration: 0;
+}
+
+.logoImg {
+  width: 28px;
+  height: 28px;
+}
+
+.rowthFit {
+  font-size: 25px;
+}
+
+.env {
+  display: flex;
+  gap: 16.3px;
+}
+.env img {
+  cursor: pointer;
+}

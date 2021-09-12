@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+article {
+  display: flex;
+  justify-content: space-between;
+  width: 215px;
+  height: 84px;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px 0px 9px 12px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 3.5px;
+}
+
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 6px;
+}
+
+.icon.sales {
+  width: 43px;
+  height: 43px;
+  background: url("./miniSales.png");
+}
+.icon.view {
+  width: 54px;
+  height: 49px;
+  background: url("./miniView.png");
+  background-size: 54px, 49px;
+}
+.icon.session {
+  width: 40px;
+  height: 40px;
+  background-image: url("./miniSession.png");
+  background-size: 40px;
+}
+.icon.order {
+  width: 47.23px;
+  height: 36.8px;
+  background-image: url("./miniOrder.png");
+  background-size: 47.23px, 36.8px;
+}
+
+.title {
+  color: #ff9169;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.number {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+.percent {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4f4f4f;
+}
+.percent::before {
+  content: "";
+  display: inline-block;
+  background-image: url("./polygon1.png");
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+}
